@@ -1,22 +1,21 @@
-/target
-dist/
-task.md
-.kai/
-.cursor/
-.idea/
-docs/changelog/
-changelog/
 
-# Secrets and credentials
+changelog/
+config.toml
+*.crt
+.cursor/
+dist/
+docs/changelog/
+.DS_Store
 .env
 .env.*
 .env.local
-config.toml
-*.pem
+.idea/
+.kai/
 *.key
-*.crt
-*.p12
-*.pfx
-
 # OS
-.DS_Store
+*.p12
+*.pem
+*.pfx
+# Secrets and credentials
+/target
+task.md
